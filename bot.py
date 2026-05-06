@@ -8,7 +8,8 @@ intents.message_content = True
 
 bot = commands.Bot(command_prefix="!", intents=intents)
 
-TOKEN = "MTUwMTY0OTI4NDg3NjIxMDE5Ng.GF3leP.BWFwB5IOQt2BYv7HZVo-ucJQg1eBsafoISE-bY"  # ⚠️ Replace with new token
+import os
+TOKEN = os.getenv("MTUwMTY0OTI4NDg3NjIxMDE5Ng.GF3leP.BWFwB5IOQt2BYv7HZVo-ucJQg1eBsafoISE-bY")
 
 SELLER_ROLE_NAME = "Seller"
 BUYER_ROLE_NAME = "Buyers"
