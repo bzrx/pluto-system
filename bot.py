@@ -9,7 +9,7 @@ intents.message_content = True
 bot = commands.Bot(command_prefix="!", intents=intents)
 
 import os
-TOKEN = os.getenv("MTUwMTY0OTI4NDg3NjIxMDE5Ng.GF3leP.BWFwB5IOQt2BYv7HZVo-ucJQg1eBsafoISE-bY")
+TOKEN = os.getenv("TOKEN")
 
 SELLER_ROLE_NAME = "Seller"
 BUYER_ROLE_NAME = "Buyers"
